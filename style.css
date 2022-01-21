@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 14px;
+}
+.title-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+nav a img{
+    width: 19px;
+    height: 19px;
+}
+.first-h1{
+    font-size: 2em;
+}
+.first-heading{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+}
+
+.camera-image {
+    background-color: white;
+    height: 475px;
+    width: 475px;
+    border: 2.5px solid rgba(214, 206, 214, 0.466);
+    border-radius: 50%; 
+   }
+   .prebook-button button{
+    height: 44px;
+    width: 196px;
+    background-color: rgb(243, 22, 125);
+     }
+     button{
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 25px;
+        border: 1px solid rgb(243, 22, 125);
+
+     }
+     button a{
+         text-decoration: none;
+         color: white;
+         padding-right: 8px;
+     }
+   .fa-arrow-right{
+    padding-left: 12px;
+   }
+  #first-hr{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.034), rgba(134, 179, 207, 0.685), rgba(0, 0, 0, 0.034));
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 70px;
+    
+  }
+  .ecommerce-logo{
+      display: flex;
+      justify-content: space-between;
+      margin-left: 200px;
+      margin-right: 200px;
+      align-items: center;
+      padding-top: 15px;
+      padding-bottom: 15px;
+     
+  }
+  #second-hr{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.034), rgba(134, 179, 207, 0.685), rgba(0, 0, 0, 0.034));
+    margin-left: 150px;
+    margin-right: 150px;
+    }
+    .popular-h3{
+        font-size: 28px;
+        text-align: center;
+        padding-top: 70px;
+    }
+    
+    
+  
